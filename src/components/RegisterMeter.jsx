@@ -25,11 +25,11 @@ export function RegisterMeter() {
         }
     }
     return <div className="text-black ">
-        <div className="card bg-green-600 p-5 text-xl text-white font-bold mb-5">WEB BILLER | REGISTER METERE</div>
+        <div className="card bg-green-600 p-5 text-xl text-white font-bold mb-5">E-biller | BUY A  METER</div>
         <div className="lg:flex p-5">
             <div className="bg-white lg:w-1/2 p-5 flex items-center text-sm text-gray-400">
                 <div className="m-auto">
-                    <div className="title text-black font-bold text-xl">WEB BILLER</div>
+                    <div className="title text-black font-bold text-xl">E-BILLER</div>
                     <img src={cards} alt="" />
                 </div>
 
@@ -39,13 +39,13 @@ export function RegisterMeter() {
                     
                     <div className="form-group my-5">
                         <label htmlFor="">
-                            <span className="block float-left my-3">OWNER NAMES</span>
+                            <span className="block float-left my-3">Your names</span>
                             <input type="text" onChange={handleOwner} value={owner} id="" className="form-control p-4 w-full border" />
                         </label>
                     </div>
                     <div className="form-group my-5">
                         <label htmlFor="">
-                            <span className="block float-left my-3">METER NUMBER</span>
+                            <span className="block float-left my-3">meter number</span>
                             <input type="text"disabled value="generated" id="" className="form-control p-4 w-full border" />
                         </label>
                     </div>
@@ -56,7 +56,7 @@ export function RegisterMeter() {
                         </label>
                     </div>
 
-                    <button type="submit" className="btn bg-black p-3 rounded text-white w-full">Register</button>
+                    <button type="submit" className="btn bg-black p-3 rounded text-white w-full">Buy</button>
                 </form>
             </div>
         </div>
