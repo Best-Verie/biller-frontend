@@ -4,10 +4,10 @@ import './style/main.css'
 import { Dashboard } from './pages/Dashboard';
 import {Route,Switch} from 'react-router-dom'
 import { Meters } from './components/Meters';
-import { RegisterMeter } from './components/RegisterMeter';
+import { RegisterMeter } from './components/AddMeter';
 import { CheckBalance } from './components/CheckBalance';
 import { AddBalance } from './components/AddBalance';
-import { Logs } from './components/Logs';
+import { History } from './components/History';
 
 
 
@@ -33,7 +33,7 @@ function App() {
         <AddBalance/>
        </Route>
        <Route exact path="/balance/logs">
-        <Logs/>
+        <History/>
        </Route>
         </Switch>
        </Dashboard>

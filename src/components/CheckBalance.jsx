@@ -29,12 +29,11 @@ export function CheckBalance() {
     }
 
     return <div className="text-black ">
-        <div className="card bg-green-600 p-5 text-xl text-white font-bold mb-5">WEB BILLER CONTROLL | METER ACTIONS</div>
+        <div className="card bg-green-600 p-5 text-xl text-white font-bold mb-5">E-BILLER CONTROLL | METER ACTIONS</div>
         <div className="lg:flex p-5">
             <div className="bg-white lg:w-1/2 p-5 flex items-center text-sm text-gray-400">
                 <div className="m-auto">
-                    <div className="title text-black font-bold text-xl">WEB BILLER</div>
-                    <img src={cards} alt="" />
+                    <div className="title text-black font-bold text-xl">E-BILLER</div>
                 </div>
 
             </div>
@@ -51,9 +50,7 @@ export function CheckBalance() {
                     </div>
                     <button type="submit" className="btn bg-black p-3 rounded text-white w-full">Check balance</button>
                 </form>
-                <div class="h-40">
-                    
-                </div>
+        
             </div>
         </div>
     </div>

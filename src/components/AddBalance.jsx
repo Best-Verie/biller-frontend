@@ -54,7 +54,7 @@ export function AddBalance() {
                     </div>
                     <div className="form-group my-5">
                         <label htmlFor="">
-                            <span className="block float-left my-3">METER AMOUNT</span>
+                            <span className="block float-left my-3">AMOUNT</span>
                             <input type="text" onChange={handleAmount} value={amount} id="amount" className="form-control p-4 w-full border" required />
                         </label>
                     </div>

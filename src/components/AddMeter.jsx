@@ -30,7 +30,6 @@ export function RegisterMeter() {
             <div className="bg-white lg:w-1/2 p-5 flex items-center text-sm text-gray-400">
                 <div className="m-auto">
                     <div className="title text-black font-bold text-xl">E-BILLER</div>
-                    <img src={cards} alt="" />
                 </div>
 
             </div>
