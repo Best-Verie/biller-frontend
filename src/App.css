@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif !important;
+  /* font-family: 'Poppins', sans-serif !important; */
 }
 
 .App-logo {
@@ -12,12 +12,12 @@ body {
 }
 
 a:hover {
-  background-color: black;
+  background-color: gray;
   color: #fff;
 }
 
 .active {
-  background-color: black;
+  background-color: gray;
   color: #fff;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5D3FD3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@ a:hover {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #5D3FD3;
 }
 
 @keyframes App-logo-spin {

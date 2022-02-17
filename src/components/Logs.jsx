@@ -28,14 +28,14 @@ export function Logs() {
 
                         <div className="bg-white rounded shadow-lg text-black p-5 my-4 lg:flex gap-5 w-full">
                             <div className="lg:w-1/5 mb-2 card--code">
-                                <div className="title font-bold mb-3">TOKEN</div>
+                                <div className="title font-bold mb-3">token</div>
 
                                 <Skeleton height={25} width={Math.ceil((Math.random() + 9) * 9) + "%"} />
 
 
                             </div>
                             <div className="lg:w-1/5 mb-2 card--balance">
-                                <div className="title font-bold mb-3">METER</div>
+                                <div className="title font-bold mb-3">meter number</div>
 
 
                                 <Skeleton height={25} width={Math.ceil((Math.random() + 10) * 9) + "%"} />
@@ -43,7 +43,7 @@ export function Logs() {
 
                             </div>
                             <div className="lg:w-1/5 mb-2 card--balance">
-                                <div className="title font-bold mb-3">AMOUNT</div>
+                                <div className="title font-bold mb-3">amount </div>
 
 
                                 <Skeleton height={25} width={Math.ceil((Math.random() + 10) * 9) + "%"} />
@@ -51,7 +51,7 @@ export function Logs() {
 
                             </div>
                             <div className="lg:w-1/5 mb-2">
-                                <div className="title font-bold mb-3">DURATION</div>
+                                <div className="title font-bold mb-3">duration </div>
 
 
                                 <Skeleton height={25} width={Math.ceil((Math.random() + 10) * 9) + "%"} />
