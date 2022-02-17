@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import cards from "../images/cards.png"
 import { getBalance } from '../services/api';
 export function CheckBalance() {
     const [uuid, setUUID] = useState('');

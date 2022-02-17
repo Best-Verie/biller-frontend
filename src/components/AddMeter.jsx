@@ -1,4 +1,3 @@
-import cards from "../images/cards.png"
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { addCard } from '../services/api';
