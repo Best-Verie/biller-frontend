@@ -3,7 +3,7 @@ import socketIOClient from "socket.io-client"
 import Skeleton from "react-loading-skeleton";
 import url from '../utils/url';
 
-export function Logs() {
+export function History() {
     const [cards, setCards] = useState([])
     const [loading, setLoading] = useState(false);
     useEffect(() => {

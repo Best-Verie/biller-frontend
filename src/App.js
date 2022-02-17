@@ -21,7 +21,7 @@ function App() {
         <Meters/>
        </Route>
        <Route exact path="/">
-       <Logs/>
+       <History/>
        </Route>
        <Route exact path="/create/meter">
         <RegisterMeter/>
