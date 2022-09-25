@@ -9,7 +9,7 @@
     "autoprefixer": "^9.8.6",
     "axios": "^0.21.1",
     "cypress": "^9.5.0",
-    "postcss": "^8.2.13",
+    "postcss": "8.4.16",
     "postcss-cli": "^8.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
